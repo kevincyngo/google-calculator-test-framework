@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "test:e2e": "cypress run --browser chrome",
+    "test:e2e:smoke": "cypress run --browser chrome --spec 'cypress/e2e/smoke/*'",
+    "test:e2e:regression": "cypress run --browser chrome --spec 'cypress/e2e/regression/*'"
+  }
+}
