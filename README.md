@@ -1,7 +1,7 @@
 ## This project was created using Cypress
 
 
-### How to run tests:
+### How to run tests, assuming Cypress is installed:
 
 This command will execute **all** tests:
 
